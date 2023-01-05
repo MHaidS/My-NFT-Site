@@ -1,0 +1,99 @@
+/* IN PROGRESS */
+
+/* ************************************************ */
+/* 13. CSS organisation new */
+
+/* 
+Challenge:
+1. Use comments to divide up the CSS
+   into segments.
+⚠️ Don't use too many comments!
+*/
+
+
+/* ************************************************ */
+body {
+  /* most browsers use 16px font-size as default */
+  font-size: 16px;
+  color: #2b283a;
+  font-family: "Roboto", sans-serif;
+  /* override HTML's default margin. */
+  margin: 0;
+}
+
+/* ****************** */
+/* TYPOGRAPHY */
+/* ****************** */
+
+h1 {
+  font-size: 36px;
+  color: whitesmoke;
+  margin: 0;
+}
+
+h2 {
+  /* font-size of h2 will default to 1.5x the size of the body */
+  /* font-size: 24px;
+  /* color has already been set on the body */
+  /* color: #2b283a; */
+  /* the whitespace between h2 & header comes fr the 45px padding set in 'section' & the default margin of h2 (19.920); set margin to 0 to remove this */
+  /* margin: 0; */
+  margin-top: 0;
+  /* default margin-bottom of 19.920 will be the space bet. 'h2' & the 'img' */
+}
+
+h3 {
+  font-size: 20px;
+  color: #d0aaff;
+  margin: 0;
+}
+
+p {
+  /* same value has already been set on the body selector */
+  /* font-size: 16px; */x
+  /* default top & bottom margin of 16px works just fine  */
+}
+
+/* ****************** */
+/* LINKS */
+/* ****************** */
+
+a {
+  color: #ef5839;
+  text-decoration: underline dotted;
+  
+}
+
+a:hover,
+a:active {
+  color: #d4b44c;
+}
+
+/* ****************** */
+/* LAYOUT */
+/* ****************** */
+
+
+header {
+  background-color: #5f29a3;
+  /* padding ==> CSS property to use to remove the annoying whitespace at the top */
+  padding: 45px 0;
+}
+
+section {
+  padding: 45px 0;
+}
+
+.container {
+  width: 620px;
+  /* this will align content to the center */
+  margin: 0 auto;
+}
+
+.main-image {
+  width: 100%;
+}
+
+
+
+
